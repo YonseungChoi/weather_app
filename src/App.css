@@ -1,0 +1,41 @@
+.container {
+  max-width: 960px;
+  margin: 30px auto;
+  background-color: rgba(255, 255, 255, 0.8); 
+  padding: 25px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+  color: #4a4a4a;
+}
+
+h1, h2, h3 {
+  color: #333;
+  font-family: 'Arial', sans-serif;
+  margin-bottom: 15px;
+}
+
+a {
+  color: #0056b3;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #2DB400;
+  text-decoration: underline;
+}
+
+button {
+  background-color: #0056b3;
+  color: #fff;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s, opacity 0.3s;
+}
+
+button:hover {
+  background-color: #003366;
+  opacity: 0.9;
+}

@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  background-color: #e7f8e0;
+  color: #333;
+}
+
+header, footer {
+  background-color: #fff;
+  padding: 10px 20px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+main {
+  padding: 20px;
+}
+
+button {
+  background-color: #2DB400;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #1C7E28;
+}
